@@ -1,0 +1,23 @@
+{% load static %}
+{% include 'navigation.html' %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>Clustering</title>
+</head>
+<body>
+    <h1>PARTIE CLUSTERING</h1>
+    <h2>Répartition des clusters en fonction de l'income</h2>
+    <!-- Utilisez la balise img pour afficher votre image -->
+    <img src="{% static 'Income_cluster.png'  %}" alt="Répartition des clusters en fonction de l'income">
+
+     <!-- Deuxième figure : Histogramme des dépenses totales par cluster -->
+     <h1>Histogram of total amount spent per cluster</h1>
+     <div>
+         <iframe src="{% static 'Total_amount_cluster.html'  %}" width="800" height="450" frameborder="0"></iframe>
+     </div>
+</body>
+</html>

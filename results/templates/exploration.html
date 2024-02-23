@@ -1,0 +1,25 @@
+{% load static %}
+{% include 'navigation.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>Exploration</title>
+</head>
+<body>
+    <h1> PARTIE EXPLORATION DES DONNÉES </h1>
+    <!-- Première figure (Expenses) -->
+    <h2>Distribution de Expenses</h2>
+    <img src="{% static 'expenses_figure.png' %}" alt="Expenses">
+
+    <!-- Deuxième figure (Income) -->
+    <h2>Distribution de Income</h2>
+    <img src="{% static 'income_figure.png' %}" alt="Income">
+
+    <!-- Troisième et quatrième figures (Age_group et Kids) -->
+    <h2>Distribution des Ages des clients et Répartition enfants par foyer</h2>
+    <img src="{% static 'kids_distribution_figure.png' %}" alt="Combined figure">
+</body>
+</html>

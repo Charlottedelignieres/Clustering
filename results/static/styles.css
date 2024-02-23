@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Ajouter un fond */
+body {
+    background-color: #f4f4f4; /* Couleur de fond */
+}
+
+/* Styler les blocs */
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styler les boutons */
+.btn {
+    
+    padding: 10px 20px;
+    background-color: #ed0f3f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+/* Centrer le titre h1 */
+h1 {
+    text-align: center;
+}
+/* Centrer les titres h2 */
+h2 {
+    text-align: center;
+    margin-top: 20px; /* Espacement au-dessus du titre */
+}
+
+/* Centrer les images */
+img {
+    display: block; /* Assurez-vous que l'image est un élément de bloc pour pouvoir utiliser les marges automatiques */
+    margin: 0 auto; /* Marge automatique horizontale pour centrer l'image */
+}
+
+/* Centrer les iframes */
+iframe {
+    display: block; /* Assurez-vous que l'iframe est un élément de bloc pour pouvoir utiliser les marges automatiques */
+    margin: 0 auto; /* Marge automatique horizontale pour centrer l'iframe */
+}
